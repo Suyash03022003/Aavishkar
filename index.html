@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Welcome!</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <h1>Lakshya</h1>
+        <img src="images/logo.png" alt="Logo" />
+      </div>
+    </div>
+    <div class="divdrop">
+      <div class="dropdown" id="dropdown" onclick="clicked()">
+        <h3>Select Language: <span>v</span></h3>
+      </div>
+      <div class="option" id="option">
+        <p onclick="optionclicked('Hindi')">Hindi</p>
+        <p onclick="optionclicked('Marathi')">Marathi</p>
+        <p onclick="optionclicked('English')">English</p>
+      </div>
+    </div>
+    <div class="content">
+      <a href="student.html">
+        <div class="stakeholder">
+          <img src="images/student.png" alt="Student" />
+          <h2>Student</h2>
+        </div>
+      </a>
+      <div class="stakeholder">
+        <img src="images/teacher.png" alt="Teacher" />
+        <h2>Teacher</h2>
+      </div>
+      <div class="stakeholder">
+        <img src="images/princi.png" alt="Principal" />
+        <h2>Principal</h2>
+      </div>
+      <div class="stakeholder">
+        <img src="images/parenrt.png" alt="Parents" />
+        <h2>Parents</h2>
+      </div>
+      <div class="stakeholder">
+        <img src="images/moe.png" alt="MOE" />
+        <h2>MOE</h2>
+      </div>
+    </div>
+    <script>
+      var dropdown = document.getElementById("dropdown");
+      var option = document.getElementById("option");
+      function clicked() {
+        if (option.style.display === "none") {
+          option.style.display = "block";
+          dropdown.style.borderBottomLeftRadius = 0;
+          dropdown.style.borderBottomRightRadius = 0;
+        } else {
+          option.style.display = "none";
+          dropdown.style.borderBottomLeftRadius = "20px";
+          dropdown.style.borderBottomRightRadius = "20px";
+        }
+      }
+      function optionclicked(str) {
+        dropdown.innerHTML = "<h3>" + str + "<span>v</span></h3>";
+        option.style.display = "none";
+        dropdown.style.borderBottomLeftRadius = "20px";
+        dropdown.style.borderBottomRightRadius = "20px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.nav h1 {
+    margin: 30px;
+}
+
+.nav img {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 20%;
+}
+
+.content {
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.stakeholder {
+    margin: 10px;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 15px;
+    display: inline-block;
+    width: 40%;
+}
+
+.stakeholder h2 {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.stakeholder img {
+    margin: 2px;
+    margin-bottom: 0;
+    width: 120px;
+    height: 120px;
+}
+
+.divdrop {
+    width: 100%;
+    text-align: center;
+}
+
+.dropdown {
+    width: 70%;
+    border-radius: 20px;
+    margin: 5px;
+    margin-bottom: 10px;
+    margin: auto;
+    background-color: blanchedalmond;
+    padding: 15px;
+}
+
+.dropdown h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown h3 span {
+    border-radius: 50%;
+    background-color: black;
+    padding: 7px 15px;
+    color: white;
+    margin: -5px 0px 10px 20px;
+}
+
+.option {
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    left: 62px;
+    margin-top: -1px;
+    font-size: 20x;
+    width: 70%;
+    padding: 10px;
+}
+
+.option p {
+    padding: 7px;
+    font-weight: bold;
+}
