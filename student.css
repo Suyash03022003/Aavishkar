@@ -7,8 +7,6 @@
 
 body {
     background-color: #DCF1FD;
-    /* overflow-y: hidden; */
-    height: 90vh;
 }
 
 h1 {
@@ -29,7 +27,7 @@ h1 {
 
 .content {
     margin: 50px auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
