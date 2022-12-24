@@ -9,6 +9,11 @@ body {
     background-color: #DCF1FD;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 h1 {
     margin: 30px;
     margin-bottom: 15px;
