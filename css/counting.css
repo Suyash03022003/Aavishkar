@@ -5,11 +5,27 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.back {
+    position: absolute;
+    background-color: aliceblue;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    transform: translate(70%, 90%);
+}
+
 .bg {
     background-color: #AEEFDC;
     border-radius: 20px;
+    padding: 40px;
     margin-top: -20px;
     height: 20vh;
+}
+
+.bg img { 
+    width: 30%;
 }
 
 .content {
