@@ -8,9 +8,9 @@
 
 .bg {
     overflow: hidden;
-    margin-top: -60px;
     position: fixed;
     width: 100vw;
+    height: 100vh;
     transform: translateY(-1%);
     z-index: -1;
 }
