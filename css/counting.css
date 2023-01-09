@@ -6,26 +6,40 @@
 }
 
 .back {
+    width: 10vw;
     position: absolute;
-    background-color: aliceblue;
-    font-size: 30px;
+    background-color: white;
     border-radius: 10px;
-    padding: 5px;
-    color: black;
-    text-decoration: none;
-    transform: translate(70%, 90%);
+    transform: translate(25px, 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+}
+
+.back img { 
+    width: 100%;
+    height: 100%;
 }
 
 .bg {
     background-color: #AEEFDC;
     border-radius: 20px;
-    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: -20px;
     height: 20vh;
+    gap: 20px;
+    padding-top: 50px;
 }
 
 .bg img { 
     width: 30%;
+}
+
+.bg h3 {
+    font-size: 30px;
 }
 
 .content {
