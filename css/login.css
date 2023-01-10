@@ -32,6 +32,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 15px 10px;
+  mix-blend-mode: color-burn;
 }
 
 .back img { 
@@ -56,4 +57,44 @@ body {
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 30px;
+}
+
+.content {
+  padding: 40px;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  background-color: #99d490;
+  border: 0;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.content p {
+  margin-top: 20px;
+}
+
+.content h4 {
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.google img {
+  width: 9%;
 }
