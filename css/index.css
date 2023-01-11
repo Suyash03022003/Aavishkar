@@ -8,7 +8,7 @@
 
 .bg {
     overflow: hidden;
-    margin-top: -60px;
+    margin-top: -40px;
     position: fixed;
     width: 100vw;
     z-index: -1;
